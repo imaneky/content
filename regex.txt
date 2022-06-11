@@ -1,0 +1,28 @@
+^The -> significa que tiene que empezar por The.
+The$ -> significa que tiene que terminar por The.
+the -> cualquier cosa que contenga the
+
+the* -> matches the con una o mas e
+the+ -> matches the con al menos una e
+the? -> matches the con ninguna o una e
+the{2,} -> matches the con al menos 2 e
+t(he)* -> matches t con zero o mas he
+t(he) {2,5} -> matches t con entre 2 y 5 he
+
+t(h|e) -> matches t continuada por h o e
+
+*********estos en mayúscula son la negación*************1
+\d -> match un caracter que sea un dígito
+\w -> match un caracter alfanumerico 
+\s -> match espacio en blanco
+
+. -> match any character
+
+\$\d -> significa un $ antes de un dígito
+
+
+
+
+Ejercicio 1.1.3: Determinar los números formados estrictamente por 4 dígitos que aparecen dado 
+un texto de una sola línea. Imprimir todos los años que vienen en el texto en orden de aparición.
+
